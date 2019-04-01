@@ -1,0 +1,23 @@
+{
+  "name": "@liang610/time-utils",
+  "version": "0.1.0",
+  "author": "Yi-Liang Lai <yiliang.lai@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liang610/time-utils.git"
+  },
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.es.js",
+  "browser": "dist/index.umd.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "files": [
+    "src",
+    "dist"
+  ],
+  "devDependencies": {
+    "rollup": "1.7.4"
+  }
+}
